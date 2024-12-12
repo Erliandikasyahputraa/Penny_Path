@@ -70,8 +70,9 @@ fun WelcomeScreen(
         mutableStateOf(
             Currency(
                 icon = R.drawable.ic_cart,
-                name = "Indian Rupee (INR)",
-                currency = "₹"
+                name = "Indonesian Rupiah (IDR)",
+                currency = "Rp"
+
             )
         )
     }

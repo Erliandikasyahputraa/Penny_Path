@@ -10,27 +10,40 @@ data class Currency(
     val currency: String
 )
 
-fun getCurrencyList(): List<Currency>{
+fun getCurrencyList(): List<Currency> {
     return listOf(
         Currency(
-            icon = R.drawable.ic_ruppee,
-            name = "Indian Rupee\n(INR)",
-            currency = "₹"
+            icon = R.drawable.ic_rupiah,
+            name = "Indonesian Rupiah\n(IDR)",
+            currency = "Rp"
         ),
+
         Currency(
-            icon = R.drawable.ic_dollar,
-            name = "United States Dollar (USD)",
-            currency = "$"
-        ),
-        Currency(
-            icon = R.drawable.ic_euro,
-            name = "European Euro\n(EUR)",
-            currency = "$"
-        ),
-        Currency(
-            icon = R.drawable.ic_yen,
-            name = "Japanese Yen\n(YEN)",
-            currency = "¥"
-        )
+        icon = R.drawable.ic_dollar,
+        name = "United States Dollar (USD)",
+        currency = "$"
+    )
+//        Currency(
+//            icon = R.drawable.ic_ruppee,
+//            name = "Indian Rupee\n(INR)",
+//            currency = "₹"
+//        ),
+//
+//        Currency(
+//            icon = R.drawable.ic_euro,
+//            name = "European Euro\n(EUR)",
+//            currency = "$"
+//        ),
+//        Currency(
+//            icon = R.drawable.ic_yen,
+//            name = "Japanese Yen\n(YEN)",
+//            currency = "¥"
+//        ),
+//        Currency(
+//            icon = R.drawable.ic_rupiah,
+//            name = "Indonesian Rupiah\n(IDR)",
+//            currency = "Rp"
+//        )
     )
 }
+

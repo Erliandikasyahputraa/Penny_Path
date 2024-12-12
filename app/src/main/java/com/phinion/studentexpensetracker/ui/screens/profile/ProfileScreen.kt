@@ -60,8 +60,9 @@ fun ProfileScreen(
     }
 
     var dropDownCurrency = remember {
-        mutableStateOf(Currency(icon = R.drawable.ic_cart, name = "Indian Rupee\n(INR)", currency = "₹"))
+        mutableStateOf(Currency(icon = R.drawable.ic_rupiah, name = "Indonesian Rupiah (IDR)", currency = "Rp"))
     }
+
 
     Column(
         modifier = Modifier.fillMaxSize()

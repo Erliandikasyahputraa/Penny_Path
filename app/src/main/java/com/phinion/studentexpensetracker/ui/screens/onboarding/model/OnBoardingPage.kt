@@ -13,7 +13,7 @@ sealed class OnBoardingPage(
     object First: OnBoardingPage(
         image = R.drawable.easy_to_use_illustration,
         title = "Simple and Easy to use",
-        description = "Purchased something? Paid something online\nKeep track of it by adding a transaction"
+        description = "Purchased something? Paid something?\nKeep track of it by adding a transaction"
     )
 
     object Second: OnBoardingPage(
