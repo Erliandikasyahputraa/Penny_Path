@@ -4,10 +4,12 @@ plugins {
     id 'kotlin-kapt'
     id 'com.google.dagger.hilt.android'
     id 'kotlin-parcelize'
+    id 'com.google.gms.google-services'
+
 }
 
 android {
-    namespace 'com.phinion.studentexpensetracker'
+    namespace 'com.bangkit.pennypath'
     compileSdk 33
 
     defaultConfig {
@@ -91,5 +93,10 @@ dependencies {
     // Horizontal Pager and Indicators - Accompanist
     implementation "com.google.accompanist:accompanist-pager:0.21.2-beta"
     implementation "com.google.accompanist:accompanist-pager-indicators:0.21.2-beta"
+
+    // Firebase
+    implementation (platform("com.google.firebase:firebase-bom:33.7.0"))
+    implementation "com.google.firebase:firebase-analytics"
+
 
 }

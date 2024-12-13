@@ -1,4 +1,4 @@
-package com.phinion.studentexpensetracker
+package com.bangkit.pennypath
 
 import org.junit.Test
 
